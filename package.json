@@ -1,0 +1,23 @@
+{
+  "name": "kshahmeer10_cli_number_guessing",
+  "type": "module",
+  "version": "2.0.0",
+  "description": "this is a cli base cli_number_guessing_game",
+  "main": "index.js",
+  "bin": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Shahmeer Khan",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  },
+  "dependencies": {
+    "inquirer": "^9.2.17"
+  }
+}
