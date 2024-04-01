@@ -1,9 +1,6 @@
-#! /user/bin/env node
+#! /usr/bin/env node
 import inquirer from "inquirer";
 import chalk from "chalk";
-//copmuter will generate a rendom number
-//user input a guess number
-//compare user input with computer generated number then show result
 console.clear;
 console.log(chalk.blue.bold("\n \t This is Number Guessing Game\t"));
 const rendom_number = Math.floor(Math.random() * 6 + 1);
@@ -20,6 +17,5 @@ if (answer.guess_number === rendom_number) {
 }
 else {
     console.log(chalk.red(" \n \tUnfortunatly! You guess a wrong number\n") +
-        chalk.green(" \n \tThe correct number is = " +
-            rendom_number));
+        chalk.green(" \n \tThe correct number is = " + rendom_number));
 }
